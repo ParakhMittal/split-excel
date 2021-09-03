@@ -66,7 +66,6 @@ for filter_col_unique_value in filter_col_unique_values:
                         new_cell.number_format = copy(src_cell.number_format)
                         new_cell.protection = copy(src_cell.protection)
                         new_cell.alignment = copy(src_cell.alignment)
-                        new_cell._style = copy(src_cell._style)
                     des_cell_index = des_cell_index + 1
                 des_cell_index = 1
                 des_row_index = des_row_index + 1
